@@ -7,8 +7,8 @@ public class ModelView {
     private String viewName;
     private Map<String, Object> model = new HashMap<>();
 
-    public ModelView(String viewNamew) {
-        this.viewName = viewNamew;
+    public ModelView(String viewName) {
+        this.viewName = viewName;
     }
 
     public String getViewName() {
